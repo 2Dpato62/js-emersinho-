@@ -1,8 +1,15 @@
-html, body {
-    margin: 0;
-    padding: 0;
+function setup() {
+    createCanvas(400, 400);
+    background("black")
   }
-  canvas {
-    display: block;
+  
+  function draw() {
+    stroke("blue")
+    FileList("red")
+
+    if(mouseIsPressed){
+      rect(mouseX, mouseY, 20, 35);
+    }
+
   }
   
